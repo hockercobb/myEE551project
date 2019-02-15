@@ -1,81 +1,46 @@
-# myEE551project Introduction
+# image-classify-django-server
 
-this is my individual project for EE551 python course.
+[![python3.5](https://img.shields.io/badge/python-3.5-blue.svg)](https://www.python.org/downloads/release/python-355/)
+[![python3.6](https://img.shields.io/badge/python-3.6-brightgreen.svg)](https://www.python.org/downloads/release/python-368/)
+[![django2.1.5](https://img.shields.io/badge/django-2.1.5-orange.svg)](https://docs.djangoproject.com/en/2.1/)
+[![License](https://img.shields.io/badge/license-GPL--3.0-green.svg)](https://github.com/nature1995/image-classify-django-server/blob/master/LICENSE)
 
-# Author and some basic information
+## Introduction
+This is my EE551 python individual project | Author: Ziran Gong
 
-Author :Hao Cao
-Course: EE551 python
+## Purposals
+This project provides image processing and recognition capabilities in the field of artificial intelligence by building web services. Those features can be conveniently and quickly used on mobile phones, computers, and tablets. Provide a good user experience and a beautiful interface。
 
-Professor: Sergul Aydor /Stevens institute of technology
-Github:https://github.com/JingeStevens/my_project
+## Architecture
 
+## Features
+- [x] Create Django web server in local
+- [x] Add Account management funtion
+- [x] Add Login & Signup
+- [x] Buy and set cloud server (Alibaba Cloud), then install environment
+- [x] Add Django Rest Framework
+- [x] Run my Django web in cloud server
 
-# Background information: dogs vs. cats!
+## TODO
+- [ ] Optimize front-end interface, adapt to mobile and PC interface
+- [ ] Design front-end and back-end interactive interfaces
+- [ ] Add feature: Face comparison
+- [ ] Add feature: Bank card identification
+- [ ] Add feature: Gesture identification
+- [ ] Add feature: image classify using following model：
+  - [ ] ResNet50
+  - [ ] Xception  
+  - [ ] MobileNet, MobileNetV2  
+  - [ ] InceptionV3
+  - [ ] DenseNet121, DenseNet169, DenseNet201
+  - [ ] VGG16, VGG19
+  - [ ] NASNetMobile, NASNetLarge
+- [ ] Support switching between different image identify models
+- [ ] Run each part of functions seperately in my own cloud server 
+- [ ] Run all the functions in my own cloud server
+## Author
 
-* from kaggle:
+* **Ziran Gong** - [Web Page](http://ranxiaolang.com)
 
-  In 2013, we hosted one of our favorite for-fun competitions:  Dogs vs. Cats. Much has since changed in the machine learning landscape, particularly in deep learning and image analysis. Back then, a tensor flow was the diffusion of the creamer in a bored mathematician's cup of coffee. Now, even the cucumber farmers are neural netting their way to a bounty.
-
-  Much has changed at Kaggle as well. Our online coding environment Kernels didn't exist in 2013, and so it was that we approached sharing by scratching primitive glpyhs on cave walls with sticks and sharp objects. No more. Now, Kernels have taken over as the way to share code on Kaggle. IPython is out and Jupyter Notebook is in. We even have TensorFlow. What more could a data scientist ask for? But seriously, what more? Pull requests welcome.
-  
-  We are excited to bring back the infamous Dogs vs. Cats classification problem as a playground competition with kernels enabled. Although modern techniques may make light of this once-difficult problem, it is through practice of new techniques on old datasets that we will make light of machine learning's future challenges.
-  
-# Proposal
-   * My project can classify the images into dogs and cats , in field of aritificial intelligence and build web service.
-   * Can be used on computer (and mobile-phone), running on the web service.
- 
-# Todo  /  basic features.
-
-1.Image processing
-    ①image cropping and pre-processing,standardizing. 
-    ②converse the images that can be use in Tensorflow.
-
-2.Design neural network
-    /*  priliminary design */
-        
-       conv1   conv layer_1
-       
-       pooling1_lrn  pooling layer_1
-        
-       conv2  conv layer_2
-       
-       pooling2_lrn pooling layer_2
-        
-       local3 pooling layer_1
-        
-       local4 pooling layer_2
-        
-       softmax pooling layer_3
-
-
-3.Training model.
-    
-   ①create training model.
-    
-   ②save the model.
-
-
-4.Classification and recognition
-    
-# Advanced features
-
-1.Based on moxing(producted by Huawei company) and running by the Huawei cloud with better GPU such get a high speed.
-
-2.Design the web-based interface or client and app on mobile phone.
-
-3.Some function based on client such as accounting management, limits of authority managemen..
-
-
-# Resource
-
-1. image resoure (data set)from kaggle/google.
-
-2. web-service maybe built on Huawei Cloud.
-
-3. AI function based on tensorflow.
-...to be supplemented
-    
-Thanks.
-
-Date: 2/14/2019
+## License
+This software is licensed under the GNU General Public License v3.0 License. For more information, read the file [LICENSE](https://github.com/nature1995/image-classify-django-server/blob/master/LICENSE).
