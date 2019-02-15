@@ -4,9 +4,8 @@ this is my individual project for EE551 python course.
 
 # Author and some basic information
 
-Author : Wang Jinge
+Author :Hao Cao
 Course: EE551 python
-Project from : Kaggle.
 
 Professor: Sergul Aydor /Stevens institute of technology
 Github:https://github.com/JingeStevens/my_project
