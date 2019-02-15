@@ -1,9 +1,7 @@
-# personalized search engine：HAOSEARCH
+# Personalized search engine：HAOSEARCH
 
 
 [![python3.6](https://img.shields.io/badge/python-3.6-brightgreen.svg)](https://www.python.org/downloads/release/python-368/)
-[![django2.1.5](https://img.shields.io/badge/django-2.1.5-orange.svg)](https://docs.djangoproject.com/en/2.1/)
-[![License](https://img.shields.io/badge/license-GPL--3.0-green.svg)](https://github.com/nature1995/image-classify-django-server/blob/master/LICENSE)
 
 ## Introduction
 This is my EE551 python individual project | Author: HAO CAO
