@@ -29,4 +29,4 @@ The goal of this project is to create a personalized search engine called HAOSEA
 
 ## Description
 
-I am currently studying Python, so I have only a preliminary idea for the project, but I will  improve this REANDME as I go deeper, and fianlly achieve my goals step by step.Thanks!
+I am currently studying Python, so I have only a preliminary idea for the project, but I will  improve this REANDME and my project as I go deeper, and fianlly achieve my goals step by step.Thanks!
