@@ -1,4 +1,4 @@
-![](https://raw.github.com/meolu/walle-web/master/screenshot/logo.jpg)
+
 
 Walle 2.0 - [官方主页](https://www.walle-web.io)
 =========================
