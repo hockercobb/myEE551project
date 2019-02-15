@@ -23,7 +23,7 @@ The goal of this project is to create a personalized search engine called HAOSEA
 - [ ] Get the source code of the web page, parse and strip out the desired content.
 - [ ] Save the content by making the content index.
 - [ ] When searching, the query is searched in the entry index according to the search term, and the relevant search results are returned in order.
-
+## Author
 
 * **HAO CAO**
 
