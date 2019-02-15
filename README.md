@@ -1,4 +1,4 @@
-# my_project Introduction
+# myEE551project Introduction
 
 this is my individual project for EE551 python course.
 
