@@ -1,109 +1,82 @@
+# my_project Introduction
+
+this is my individual project for EE551 python course.
+
+# Author and some basic information
+
+Author : Wang Jinge
+Course: EE551 python
+Project from : Kaggle.
+
+Professor: Sergul Aydor /Stevens institute of technology
+Github:https://github.com/JingeStevens/my_project
 
 
-Walle 2.0 - [官方主页](https://www.walle-web.io)
-=========================
-[![Build Status](https://travis-ci.org/meolu/walle-web.svg?branch=master)](https://travis-ci.org/meolu/walle-web)
+# Background information: dogs vs. cats!
 
-功能强大，且免费开源的`walle-web 瓦力`终于更新`2.0.0`了！！！
+* from kaggle:
 
-walle 让用户代码发布终于可以不只能选择 jenkins！支持各种web代码发布，php、java、python、go等代码的发布、回滚可以通过web来一键完成。walle 一个可自由配置项目，更人性化，高颜值，支持git、多用户、多语言、多项目、多环境同时部署的开源上线部署系统。
+  In 2013, we hosted one of our favorite for-fun competitions:  Dogs vs. Cats. Much has since changed in the machine learning landscape, particularly in deep learning and image analysis. Back then, a tensor flow was the diffusion of the creamer in a bored mathematician's cup of coffee. Now, even the cucumber farmers are neural netting their way to a bounty.
 
-`2.0.0` 占用了我几乎所有业余时间，精力与金钱付出换各位使用收益，望各位喜欢不吝顺手 `star` 以示支持，项目更好亦反馈予你。目前 `2.0.0` 已经发布，请保持关注，我会在公众号更新（在最下面）。  
+  Much has changed at Kaggle as well. Our online coding environment Kernels didn't exist in 2013, and so it was that we approached sharing by scratching primitive glpyhs on cave walls with sticks and sharp objects. No more. Now, Kernels have taken over as the way to share code on Kaggle. IPython is out and Jupyter Notebook is in. We even have TensorFlow. What more could a data scientist ask for? But seriously, what more? Pull requests welcome.
+  
+  We are excited to bring back the infamous Dogs vs. Cats classification problem as a playground competition with kernels enabled. Although modern techniques may make light of this once-difficult problem, it is through practice of new techniques on old datasets that we will make light of machine learning's future challenges.
+  
+# Proposal
+   * My project can classify the images into dogs and cats , in field of aritificial intelligence and build web service.
+   * Can be used on computer (and mobile-phone), running on the web service.
+ 
+# Todo  /  basic features.
 
+1.Image processing
+    ①image cropping and pre-processing,standardizing. 
+    ②converse the images that can be use in Tensorflow.
 
-有推广资源（开源文章推荐、大会分享）的同学，请微信联系我，强烈需要帮助。另外，老版本已迁移到 [walle 1.x](https://github.com/meolu/walle-web-v1.x) 的同学**务必不要再更新了**，两个版本不兼容
-
-Feature
-=========================
-- 类`gitlab`的`RESTful API`，类`gitlab`的权限模型。将来打通`gitlab`，良心的惊喜
-- 空间管理。意味着有独立的空间资源：环境管理、用户组、项目、服务器等
-- 灰度发布。呼声不断，终于来了
-- 项目管理。Deploy、Release的前置及后置hook，自定义全局变量；自带检测、复制功能，都贴心到这种程度了
-- `websocket` 实时展示部署中的 `shell console`，跟真的终端长得一样。
-- 完善的通知机制。邮件、钉钉
-- 全新的UI，我自己都被震憾到了，如丝般流畅
-
-Architecture
-=========================
-![](https://raw.github.com/meolu/docs/master/walle-web.io/docs/2/zh-cn/static/walle-flow-relation.jpg)
-![](https://raw.github.com/meolu/docs/master/walle-web.io/docs/2/zh-cn/static/permission.png)
-
-Preview
-=========================
-![](https://raw.github.com/meolu/docs/master/walle-web.io/docs/2/zh-cn/static/user-list.png)
-![](https://raw.github.com/meolu/docs/master/walle-web.io/docs/2/zh-cn/static/project-list.png)
-![](https://raw.github.com/meolu/docs/master/walle-web.io/docs/2/zh-cn/static/task-list.png)
-![](https://raw.github.com/meolu/docs/master/walle-web.io/docs/2/zh-cn/static/deploy-console.png)
-![](https://raw.github.com/meolu/docs/master/walle-web.io/docs/2/zh-cn/static/project_java_tomcat.png)
-
-Installation
-=========================
-[快速安装](https://walle-web.io/docs/2/installation.html) | [安装错误](https://walle-web.io/docs/2/install-error.html) | [常见错误排解](https://walle-web.io/docs/2/troubleshooting.html)
-
-Roadmap
-=========================
-- [x] **预览版**  2018-12-02
-    - ~~安装文档、前后端代码、Data Migration~~
-- [x] **Alpha** 2018-12-09
-    - ~~使用文档、Trouble Shooting、公众号更新~~
-- [x] **Beta** 2018-12-23 :santa:圣诞夜前夕
-    - ~~钉钉/邮件消息通知~~
-    - ~~接受官网logo企业的`Trouble Shooting`~~
-- [x] **2.0.0**  2018-12-30 :one:元旦前夕
-    - ~~项目检测、复制~~
-    - ~~任务的回滚~~
-    - ~~`released tag`、使用文档~~
-    - ~~`Docker` 镜像~~
-    - ~~Java配置模板~~
-    - ~~PHP配置模板~~
-    - ~~`github` 5000 `star`~~
-- [x] **2.0.1**  2019-01-13
-    - ~~项目配置添加自定义变量~~
-    - ~~Python 3.7+兼容~~
-- **2.0.2**  2019-01-20
-    - `Dashboard`（全新的玩法，欢迎提issue）
-    - 在线PPT介绍
-- **2.1.0**  2019-01-27 :new:新年版
-    - `CAS`
-    - 冲刺`github` 7000 `star`（靠你们和你们的同事们了）
+2.Design neural network
+    /*  priliminary design */
+        
+       conv1   conv layer_1
+       
+       pooling1_lrn  pooling layer_1
+        
+       conv2  conv layer_2
+       
+       pooling2_lrn pooling layer_2
+        
+       local3 pooling layer_1
+        
+       local4 pooling layer_2
+        
+       softmax pooling layer_3
 
 
-Discussing
-=========================
-- [submit issue](https://github.com/meolu/walle-web/issues/new)
+3.Training model.
+    
+   ①create training model.
+    
+   ②save the model.
 
 
-勾搭下
-=========================
-写开源是我的业余爱好，大数据平台和营销技术才是主业，无论哪个都欢迎交流。  
-人脉也是一项重要能力，请备注姓名@公司，谢谢：）
+4.Classification and recognition
+    
+# Advanced features
 
-<img src="https://raw.githubusercontent.com/meolu/walle-web/master/screenshot/weixin-wushuiyong.jpg" width="244" height="314" alt="吴水永微信" align=left />
+1.Based on moxing(producted by Huawei company) and running by the Huawei cloud with better GPU such get a high speed.
 
-<img src="https://raw.githubusercontent.com/meolu/walle-web/master/screenshot/weixin-huakai.jpg" width="244" height="314" alt="花开微信" align=left />
+2.Design the web-based interface or client and app on mobile phone.
 
-<img src="https://raw.githubusercontent.com/meolu/walle-web/master/screenshot/weixin-ye.jpg" width="244" height="314" alt="叶歆昊微信" align=left />
-
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-新的惊喜
-=========================
-后续更新和解剖讨论、以及walle有趣的人和事，将会放到公众号：walle-web，晨间除了写开源，也会写千字文，关注不迷路：）
-
-<img src="https://raw.githubusercontent.com/meolu/walle-web/master/screenshot/wechat-gzh.jpg" width="244" height="314" alt="公众号 walle-web" />
+3.Some function based on client such as accounting management, limits of authority managemen..
 
 
-打赏作者杯咖啡
-=========================
-你也不一定要赞赏，芸芸众生，相遇相识是一种缘份。不过可以给点个star，或者关注公众号，哈
+# Resource
 
-<img src="https://raw.github.com/meolu/docs/master/walle-web.io/docs/2/zh-cn/static/appreciation-wechat.jpg" width="220" height="220" alt="赞赏码" style="float: left;"/>
+1. image resoure (data set)from kaggle/google.
 
-Code Visualization
-=========================
-感谢`gitviscode`组织制作的`commit history`视频，记录从15年萌芽发展，有那么多开发者加入完善。1'50的时候，以为项目都停止更新了，然后突然如烟花绽放的感觉，我他妈都感动得要哭了
+2. web-service maybe built on Huawei Cloud.
 
- [![Watch the video](https://img.youtube.com/vi/AIir52mETMY/0.jpg)](https://www.youtube.com/watch?v=AIir52mETMY)
+3. AI function based on tensorflow.
+...to be supplemented
+    
+Thanks.
 
- [https://www.youtube.com/watch?v=AIir52mETMY](https://www.youtube.com/watch?v=AIir52mETMY)
+Date: 2/14/2019
