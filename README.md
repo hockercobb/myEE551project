@@ -6,7 +6,7 @@
 ## Introduction
 This is my EE551 python individual project | Author: HAO CAO
 
-## Purposals
+## Introduction
 The goal of this project is to create a personalized search engine called HAOSEARCH, which is based on my own interest in a game named League of legends.
 ## Architecture
 
