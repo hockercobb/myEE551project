@@ -2,28 +2,35 @@
 
 
 [![python3.6](https://img.shields.io/badge/python-3.6-brightgreen.svg)](https://www.python.org/downloads/release/python-368/)
-[![Keras]](https://keras.io/) 
-[Keras]:https://www.google.com/imgres?imgurl=https%3A%2F%2Fs3.amazonaws.com%2Fkeras.io%2Fimg%2Fkeras-logo-2018-large-1200.png&imgrefurl=http%3A%2F%2Fkeras.io%2F&docid=ExJxgjiDDy9UPM&tbnid=YULh4CgxXDz1rM%3A&vet=10ahUKEwi2ldOw8OvhAhVqmuAKHR4FBwIQMwg-KAAwAA..i&w=1200&h=348&bih=625&biw=1366&q=keras%20logo&ved=0ahUKEwi2ldOw8OvhAhVqmuAKHR4FBwIQMwg-KAAwAA&iact=mrc&uact=8
+
+![Keras](https://github.com/hockercobb/myEE551project/blob/master/Keras.png) 
+
+[![theory application]](https://arxiv.org/abs/1508.06576)
+
+
+
 
 ## Introduction
 This is my EE551 python individual project | Author: HAO CAO
 
 ## Purposals
-The goal of this project is to create a personalized search engine called HAOSEARCH, which is based on my own interest in a game named League of legends.Also, the name of this search engine contains my name HAO!
+As a beginner python learner, it would be interesting to combine the program with my hobbie: painting.Van gogh is my idol, his painting named The Starry Night is my favourite, we cannot paint a mastwepiece like this, but maybe we can creat other pieces with the help of Python! It's amazing!
 ## Architecture
 
 ## Features
-- [x] The data of the web named League of Legends  is stored in Mysql & ElasticSearch
-- [x] Full-text search (to be used together with the website side)
-- [x] search suggestions
-- [x] my search history
-- [x] search words highlight red
-- [x] search results bottom page
+- [x] Configure the running environment using the VGG16 model
+- [x] Build style transfer platform with keras
+- [x] deep learning algorithm
+- [x] Let the computer learn the input image style
+- [x] Style is digitized by deep learning algorithm
+- [x] The target image was processed iteratively to obtain similar style images
+
+
 
 ## TODO
-- [ ] Crawl this website and get links to all the web pages.
-- [ ] Get the source code of the web page, parse and strip out the desired content.
-- [ ] Save the content by making the content index.
+- [ ] Installate some dependent libraries with Anaconda
+- [ ] Configure the operating environment
+- [ ] Code designing about dimensions of the generated picture and util function to convert a tensor into a valid image.
 - [ ] When searching, the query is searched in the entry index according to the search term, and the relevant search results are returned in order.
 ## Author
 
