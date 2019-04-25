@@ -39,4 +39,18 @@ As a beginner python learner, it would be interesting to combine the program wit
 
 ## Outcome Description
 This is Van gogh's The Starry Night:
+
 ![](https://github.com/hockercobb/myEE551project/blob/master/starry_night.jpg)
+
+This is out stevens School:
+
+![](https://github.com/hockercobb/myEE551project/blob/master/stevens.jpg)
+
+Then,run the program on the Anaconda and input:
+python neural_style_transfer.py ./stevens.jpg ./starry_night.jpg ./stevens_t
+
+after 7 times iteration：
+
+
+we got it:
+
