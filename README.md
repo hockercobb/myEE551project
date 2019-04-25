@@ -27,15 +27,16 @@ As a beginner python learner, it would be interesting to combine the program wit
 
 
 
-## TODO
+## NEED TO TODO
 - [ ] Installate some dependent libraries with Anaconda
 - [ ] Configure the operating environment
 - [ ] Code designing about dimensions of the generated picture and util function to convert a tensor into a valid image.
-- [ ] When searching, the query is searched in the entry index according to the search term, and the relevant search results are returned in order.
+- [ ] Run the program on Anaconda and input the run statement, get what we want.
+
 ## Author
 
 * **HAO CAO**
 
-## Description
-
-I am currently studying Python, so I have only a preliminary idea for the project, but I will  improve this REANDME and my project as I go deeper, and fianlly achieve my goals step by step.Thanks!
+## Outcome Description
+This is Van gogh's The Starry Night:
+![]()
