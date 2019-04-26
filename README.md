@@ -15,7 +15,6 @@ This is my EE551 python individual project | Author: HAO CAO
 
 ## Purposals
 As a beginner python learner, it would be interesting to combine the program with my hobbie: painting.Van gogh is my idol, his painting named The Starry Night is my favourite, we cannot paint a mastwepiece like this, but maybe we can creat other pieces with the help of Python! It's amazing!
-## Architecture
 
 ## Features
 - [x] Configure the running environment using the VGG16 model
@@ -36,6 +35,29 @@ As a beginner python learner, it would be interesting to combine the program wit
 ## Author
 
 * **HAO CAO**
+## Procedure
+### Installate some dependent libraries with Anaconda
+pip install keras
+pip install h5py
+pip install numpy
+pip install scipy
+pip install tensorflow
+pip install matplotlib
+pip install Pillow
+
+### Configure the operating environment
+download the VGG16 model from Internet
+
+### Writing code
+please refer to neural_style_transfer.py.
+
+### Run the program on Anaconda and input the run statement
+run the program on the Anaconda and input:
+python neural_style_transfer.py ./stevens.jpg ./starry_night.jpg ./stevens_t
+
+### Introduce pictures
+Introduce pictures and put them and neural_style_transfer.py.in the same folder.
+
 
 ## Outcome Description
 This is Van gogh's The Starry Night:
@@ -46,11 +68,26 @@ This is our stevens School:
 
 ![](https://github.com/hockercobb/myEE551project/blob/master/stevens.jpg)
 
-Then,run the program on the Anaconda and input:
-python neural_style_transfer.py ./stevens.jpg ./starry_night.jpg ./stevens_t
+After 10 times iteration：
+we got them:
 
-after 7 times iteration：
+![](https://github.com/hockercobb/myEE551project/blob/master/stevens_t_at_iteration_0.png)
+![](https://github.com/hockercobb/myEE551project/blob/master/stevens_t_at_iteration_1.png)
+![](https://github.com/hockercobb/myEE551project/blob/master/stevens_t_at_iteration_2.png)
+![](https://github.com/hockercobb/myEE551project/blob/master/stevens_t_at_iteration_3.png)
+![](https://github.com/hockercobb/myEE551project/blob/master/stevens_t_at_iteration_4.png)
+![](https://github.com/hockercobb/myEE551project/blob/master/stevens_t_at_iteration_5.png)
+![](https://github.com/hockercobb/myEE551project/blob/master/stevens_t_at_iteration_6.png)
+![](https://github.com/hockercobb/myEE551project/blob/master/stevens_t_at_iteration_7.png)
+![](https://github.com/hockercobb/myEE551project/blob/master/stevens_t_at_iteration_8.png)
+![](https://github.com/hockercobb/myEE551project/blob/master/stevens_t_at_iteration_9.png)
 
 
-we got it:
+
+
+
+
+
+
+
 
