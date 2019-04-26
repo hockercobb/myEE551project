@@ -1,4 +1,4 @@
-# Combination of Python and painting：Van gogh's Stevens
+# Combination of Python and painting：Van gogh's Stevens School
 
 
 [![python3.6](https://img.shields.io/badge/python-3.6-brightgreen.svg)](https://www.python.org/downloads/release/python-368/)
@@ -42,7 +42,7 @@ This is Van gogh's The Starry Night:
 
 ![](https://github.com/hockercobb/myEE551project/blob/master/starry_night.jpg)
 
-This is out stevens School:
+This is our stevens School:
 
 ![](https://github.com/hockercobb/myEE551project/blob/master/stevens.jpg)
 
